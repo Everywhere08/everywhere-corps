@@ -127,7 +127,7 @@ export default function EverywhereCorps() {
           <Button
             className="bg-[#00C897] text-white px-8 py-4 rounded-xl text-lg hover:scale-105 transition-transform shadow-lg font-heading"
           >
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/6289677866163?text=Hi%20everywhere%20corps%20i%20would%20like%20to%20ask%20for%20partnership" target="_blank" rel="noopener noreferrer">
               💬 Contact Us on WhatsApp
             </a>
           </Button>
@@ -135,7 +135,7 @@ export default function EverywhereCorps() {
 
         {/* Floating WhatsApp Button */}
         <motion.a
-          href={whatsappLink}
+          href="https://wa.me/6289677866163?text=Hi%20everywhere%20corps%20i%20would%20like%20to%20ask%20for%20partnership"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 flex items-center justify-center bg-[#25D366] hover:bg-[#1ebe5d] text-white rounded-full p-4 shadow-xl cursor-pointer hover:scale-110 transition-transform"
