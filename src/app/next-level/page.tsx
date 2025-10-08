@@ -21,9 +21,7 @@ import {
  */
 const whatsappNumber = "6281234567";
 const whatsappMessage = "Hi everywhere corps i would like to ask for partnership";
-const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-  whatsappMessage
-)}`;
+const whatsappLink = `https://wa.me/6289677866163?text=Hi%20everywhere%20corps%20i%20would%20like%20to%20ask%20for%20partnership`;
 
 export default function EverywhereCorpsPro() {
   const [darkMode, setDarkMode] = useState(false);
@@ -139,7 +137,7 @@ export default function EverywhereCorpsPro() {
 
               <div className="mt-6 flex flex-col sm:flex-row gap-3">
                 <a
-                  href={whatsappLink}
+                  href="https://wa.me/6289677866163?text=Hi%20everywhere%20corps%20i%20would%20like%20to%20ask%20for%20partnership"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-5 py-3 rounded-lg bg-[#00C897] hover:bg-[#00b98a] text-white font-medium shadow-lg transition"
@@ -321,7 +319,7 @@ export default function EverywhereCorpsPro() {
 
                   <div className="mt-3 flex gap-2">
                     <a
-                      href={whatsappLink}
+                      href="https://wa.me/6289677866163?text=Hi%20everywhere%20corps%20i%20would%20like%20to%20ask%20for%20partnership"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 inline-flex items-center justify-center gap-2 px-3 py-2 rounded-md bg-[#25D366] text-white font-medium"
